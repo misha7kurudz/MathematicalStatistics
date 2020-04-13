@@ -278,3 +278,4 @@ interv_bin_but = Button(window, text='Interval Binomial Distribution', command=i
 interv_bin_but.grid(row=10, column=1)
 window.geometry("800x300")
 window.mainloop()
+{}
