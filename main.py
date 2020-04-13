@@ -240,7 +240,6 @@ def discr_bin():
 	headers.append(["X2_crit","","",str(alpha[r])])
 	headers.append(["Result:","","", ("Hypothesis is right" if x2_emp <= x2_crit else "Hypothesis is wrong")])
 	generateWindowWithInfo(headers)
-###############
 
 def generateBinInterval(elemCnt, n):
 	lst = []
